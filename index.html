@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+    <meta content="portrait" name="x5-orientation" />
+    <meta content="portrait" name="screen-orientation" />
+    <meta content="true" name="x5-fullscreen" />
+    <meta content="yes" name="full-screen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="YES" name="apple-touch-fullscreen" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-status-bar-style" />
+    <meta content="-1" http-equiv="Expires" />
+    <meta content="no-cache" http-equiv="pragram" />
+    <!-- amazeUi -->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <!-- Set render engine for 360 browser -->
+    <meta content="webkit" name="renderer">
+    <!-- No Baidu Siteapp-->
+    <meta content="no-siteapp" http-equiv="Cache-Control" />
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta content="yes" name="mobile-web-app-capable">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="Amaze UI" name="apple-mobile-web-app-title" />
+    <meta content="#0e90d2" name="msapplication-TileColor" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="full-screen" content="yes" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/rem.js"></script>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+
+<body>
+    <!-- music -->
+    <audio loop src="music/00.mp3" id="audio" autoplay="autoplay" preload="auto"></audio>
+    <div class="music">
+        <img src="img/music.png" alt="" class="music_img ro" />
+        <div class="music_p">
+            <img src="img/music.gif" alt="" />
+        </div>
+    </div>
+    <!-- end music -->
+
+    <!-- wrap -->
+    <div class="wrap">
+    	<div class="swiper-container">
+    		<div class="swiper-wrapper">
+
+    			<!-- 首页 -->
+				<div class="swiper-slide">
+					<div class="page_01">
+						<div class="page_01_01">
+							<img src="img/bg.png" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s" alt="">
+						</div>
+					</div>
+				</div>
+				<!-- 首页 -->
+    		</div>
+    	</div>
+    </div>
+    
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            onSlideChangeEnd: function (swiper) {
+              swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            },
+            onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+              swiperAnimateCache(swiper); //隐藏动画元素 
+              setTimeout(function () {
+                swiperAnimate(swiper); //初始化完成开始动画
+              }, 100);
+            }
+          });
+    </script>
+    <script>
+        var audio = document.getElementById("audio");
+        audio.load();
+
+        document.addEventListener("WeixinJSBridgeReady", function() {
+            audio.play();
+        }, false);
+        $('.music').click(function() {
+            if ($('.music_img').is('.ro')) {
+                $('.music_img').removeClass('ro')
+                $('.music_p').css('display', 'none')
+                audio.pause();
+            } else {
+                $('.music_img').addClass('ro')
+                $('.music_p').css('display', 'block')
+                audio.play();
+            }
+        })
+    </script>
+    
+
+</body>
+
+</html>
