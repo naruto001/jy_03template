@@ -179,7 +179,7 @@ body {
     height:5.6rem;
     overflow:hidden;
     color:#b9241c;
-    font-size:0.32rem;
+    font-size:0.4rem;
     -webkit-writing-mode:vertical-rl;
     writing-mode:vertical-rl;
     background:#fff;
@@ -198,7 +198,7 @@ body {
     overflow:hidden;
     background:url(../img/seal.png) no-repeat;
     background-size:100% 100%;
-    font-size:0.32rem;
+    font-size:0.4rem;
     color:#fff;
     vertical-align:middle;
     text-align:center;
