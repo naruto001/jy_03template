@@ -37,6 +37,10 @@ body {
     margin:0 auto;
     height:100%;
 }
+@font-face{
+    font-family:wenyue;
+    src:url('wenyue.otf');
+}
 /* music */
 @-webkit-keyframes rotate {
     0% {
@@ -90,10 +94,119 @@ body {
 }
 .page_01 img {
     width:100%;
+    vertical-align:top;
 }
 .page_01 .page_01_01 {
     position:absolute;
     width:100%;
     left:0;
     top:0;
+}
+.page_01_02 {
+    position:absolute;
+    left:5.33%;
+    top:3%;
+    width:89.2%;
+    z-index:999;
+}
+.page_01_03 {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    opacity:0.79;
+}
+.page_01_04 {
+    position:absolute;
+    left:10.27%;
+    top:6%;
+    width:79.07%;
+}
+.page_01_05 {
+    position:absolute;
+    left:0;
+    top:-2%;
+    width:24.27%;
+    z-index:9999;
+}
+.page_01_06 {
+    position:absolute;
+    right:12.53%;
+    top:-3%;
+    width:25.6%;
+    z-index:9999;
+}
+.page_01_07 {
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:27.73%;
+    z-index:9999;
+}
+.page_01_08 {
+    position:absolute;
+    right:0;
+    top:44.83%;
+    width:23.3%;
+}
+.page_01_09 {
+    position:absolute;
+    right:13.07%;
+    top:57.80%;
+    width:30.93%;
+}
+.page_01_10 {
+    position:absolute;
+    right:23.87%;
+    top:60.77%;
+    width:2.44rem;
+}
+.page_01_10 p {
+    font-family:wenyue;
+    font-size:2.4rem;
+    color:#fff;
+    writing-mode:vertical-rl;
+    -webkit-writing-mode:vertical-rl;
+}
+.page_01_11 {
+    position:absolute;
+    right:41.07%;
+    top:71.19%;
+    width:0.72rem;
+}
+.page_01_11 p {
+    width:100%;
+    height:5.6rem;
+    overflow:hidden;
+    color:#b9241c;
+    font-size:0.28rem;
+    -webkit-writing-mode:vertical-rl;
+    writing-mode:vertical-rl;
+    background:#fff;
+    vertical-align:middle;
+    text-align:center;
+}
+.page_01_12 {
+    position:absolute;
+    right:12.13%;
+    top:77.36%;
+    width:6.13%;
+}
+.page_01_12 p {
+    width:100%;
+    height:3.2rem;
+    overflow:hidden;
+    background:url(../img/seal.png) no-repeat;
+    background-size:100% 100%;
+    font-size:0.2rem;
+    color:#fff;
+    vertical-align:middle;
+    text-align:center;
+    font-family:wenyue;
+}
+.page_01_13 {
+    position:absolute;
+    width:59.07%;
+    right:0;
+    top:60.47%;
 }
