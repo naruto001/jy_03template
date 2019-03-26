@@ -267,3 +267,21 @@ body {
     line-height:0.88rem;
 
 }
+.page_01_18 {
+    position:absolute;
+    left:10.4%;
+    top:6%;
+    width:79.07%;
+    height:87.93%;
+}
+.page_01_18 div {
+    width:100%;
+    height:100%;
+    background:rgba(255,255,255,0.73);
+}
+.page_01_19 {
+    position:absolute;
+    left:12.27%;
+    top:7.5%;
+    width:63.33%;
+}
