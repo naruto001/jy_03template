@@ -191,16 +191,18 @@ body {
     position:absolute;
     right:12.13%;
     top:77.36%;
-    width:6.13%;
+    width:0.92rem;
+    height:3.2rem;
 }
 .page_01_12 p {
-    width:100%;
+    width:0.92rem;
+    height:3.2rem;
     overflow:hidden;
     background:url(../img/seal.png) no-repeat;
     background-size:100% 100%;
-    font-size:0.4rem;
+    font-size:0.48rem;
     color:#fff;
-    vertical-align:middle;
+    white-space:pre-line;
     text-align:center;
     font-family:wenyue;
 }
