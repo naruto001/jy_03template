@@ -281,7 +281,22 @@ body {
 }
 .page_01_19 {
     position:absolute;
-    left:12.27%;
+    left:18.27%;
     top:7.5%;
     width:63.33%;
+    z-index:99999;
+}
+.page_01_20 {
+    position:absolute;
+    left:14.4%;
+    top:14.17%;
+    width:10.7rem;
+    height:9.32rem;
+    overflow:hidden;
+}
+.page_01_20 p {
+    font-size:0.48rem;
+    line-height:0.96rem;
+    text-align:justify;
+    color:#333;
 }
