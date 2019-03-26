@@ -180,8 +180,9 @@ body {
     overflow:hidden;
     color:#b9241c;
     font-size:0.4rem;
-    /*-webkit-writing-mode:vertical-rl;
-    writing-mode:vertical-rl;*/
+    -webkit-writing-mode:vertical-rl;
+    writing-mode:vertical-rl;
+    line-height:0.72rem;
     background:#fff;
     vertical-align:middle;
     text-align:center;
@@ -203,8 +204,9 @@ body {
     vertical-align:middle;
     text-align:center;
     font-family:wenyue;
-    /*-webkit-writing-mode:vertical-rl;
-    writing-mode:vertical-rl;*/
+    line-height:0.72rem;
+    -webkit-writing-mode:vertical-rl;
+    writing-mode:vertical-rl;
 }
 .page_01_13 {
     position:absolute;
