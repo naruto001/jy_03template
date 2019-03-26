@@ -212,3 +212,23 @@ body {
     right:0;
     top:60.47%;
 }
+.go {
+    position:absolute;
+    bottom:1.5%;
+    width:9.7%;
+    left:45%;
+    -webkit-animation:go 1.5s linear 0s infinite;
+    opacity:0.9;
+    z-index:9999;
+}
+@-webkit-keyframes go {
+    0% {
+        -webkit-transform:translate(0,0);
+    }
+    50% {
+        -webkit-transform:translate(0,-10px);
+    }
+    100% {
+        -webkit-transform:translate(0,0);
+    }
+}
