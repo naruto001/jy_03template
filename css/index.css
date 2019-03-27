@@ -337,6 +337,7 @@ body {
     top:50.02%;
     width:1.0rem;
     height:3.6rem;
+    overflow:hidden;
 }
 .page_01_23 p {
     width:100%;
@@ -360,4 +361,11 @@ body {
 .page_01_24 p {
     -webkit-writing-mode:vertical-rl;
     font-size:0.56rem;
+    line-height:0.8rem;
+    height:4.38rem;
+    overflow:hidden;
+    word-break:break-all;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
 }
