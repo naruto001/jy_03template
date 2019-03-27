@@ -363,7 +363,7 @@ body {
     height:4.38rem;
 }
 .page_01_24 p {
-    font-size:0.4rem;
+    font-size:0.36rem;
     /*line-height:0.8rem;*/
     width:4.38rem;
     overflow:hidden;
@@ -372,7 +372,7 @@ body {
     -webkit-box-orient:vertical;
     -webkit-line-clamp:2;*/
     font-family:qingke;
-    color:#666;
+    color:#999;
 }
 .page_01_25 {
     position:absolute;
