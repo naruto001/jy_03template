@@ -363,11 +363,9 @@ body {
     height:4.38rem;
 }
 .page_01_24 p {
-    -webkit-writing-mode:vertical-rl;
-    writing-mode:vertical-rl;
-    font-size:0.56rem;
+    font-size:0.4rem;
     /*line-height:0.8rem;*/
-    height:4.38rem;
+    width:4.38rem;
     overflow:hidden;
     /*word-break:break-all;
     display:-webkit-box;
