@@ -362,6 +362,21 @@ body {
     width:0.48rem;
     height:4.38rem;
 }
+.page_01_2401 {
+    position:absolute;
+    right:29.53%;
+    top:49.42%;
+    width:0.48rem;
+    height:4.38rem;
+}
+.page_01_2401 p {
+    font-size:0.36rem;
+    height:4.2rem;
+    overflow:hidden;
+    color:#666;
+    line-height:0.6rem;
+    font-family:qingke;
+}
 .page_01_24 p {
     font-size:0.36rem;
     height:4.2rem;
