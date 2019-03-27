@@ -363,7 +363,7 @@ body {
     height:4.38rem;
 }
 .page_01_24 p {
-    -webkit-writing-mode:vertical-rl;
+    /*-webkit-writing-mode:vertical-rl;*/
     font-size:0.56rem;
     /*line-height:0.8rem;*/
     height:4.38rem;
