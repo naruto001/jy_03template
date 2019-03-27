@@ -415,3 +415,40 @@ body {
     font-family:qingke;
     color:#666;
 }
+.page_01_27 {
+    position:absolute;
+    left:13.6%;
+    top:16.37%;
+    width:72.4%;
+}
+.page_01_27 img {
+    border-radius:0.2rem;
+}
+.page_01_28 {
+    position:absolute;
+    left:38.13%;
+    top:63.57%;
+    width:24%;
+    z-index:999999;
+}
+.page_01_29 {
+    position:absolute;
+    left:0;
+    top:77%;
+    width:100%;
+    z-index:999999;
+    font-size:0.32rem;
+    color:#666;
+    text-align:center;
+}
+.page_01_30 {
+    position:absolute;
+    left:0;
+    top:81.26%;
+    width:100%;
+    line-height:0.96rem;
+    font-size:0.48rem;
+    color:#333;
+    z-index:999999;
+    text-align:center;
+}
