@@ -336,14 +336,15 @@ body {
     left:56.93%;
     top:51.42%;
     width:1.0rem;
-    height:2.96rem;
+    height:3.6rem;
     background:url(../img/txt_border02.png) no-repeat;
     background-size:100% 100%;
 }
 .page_01_23 p {
     font-family:songke;
-    font-size:0.48rem;
+    font-size:0.56rem;
     font-weight:bold;
+    text-align:center;
     /*-webkit-transform:rotate(180deg) !important;
     transform:rotate(180deg);*/
 }
