@@ -359,22 +359,16 @@ body {
     position:absolute;
     right:24.53%;
     top:49.42%;
-    width:1.6rem;
+    width:0.48rem;
     height:4.38rem;
 }
 .page_01_24 p {
     font-size:0.36rem;
-    /*line-height:0.8rem;*/
-    width:4.38rem;
+    height:4.2rem;
     overflow:hidden;
-    word-break:break-all;
-    display:-webkit-box;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp:2;
+    color:#666;
+    line-height:0.6rem;
     font-family:qingke;
-    color:#999;
-    -webkit-transform:rotate(90deg);
-    transform:rotate(90deg);
 }
 .page_01_25 {
     position:absolute;
