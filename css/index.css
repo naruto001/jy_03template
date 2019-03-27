@@ -45,6 +45,10 @@ body {
     font-family:songke;
     src:url('songke.TTF');
 }
+@font-face{
+    font-family:qingke;
+    src:url('qingke.TTF');
+}
 /* music */
 @-webkit-keyframes rotate {
     0% {
@@ -368,4 +372,5 @@ body {
     display:-webkit-box;
     -webkit-box-orient:vertical;
     -webkit-line-clamp:2;
+    font-family:qingke;
 }
