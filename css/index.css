@@ -367,12 +367,14 @@ body {
     /*line-height:0.8rem;*/
     width:4.38rem;
     overflow:hidden;
-    /*word-break:break-all;
+    word-break:break-all;
     display:-webkit-box;
     -webkit-box-orient:vertical;
-    -webkit-line-clamp:2;*/
+    -webkit-line-clamp:2;
     font-family:qingke;
     color:#999;
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
 }
 .page_01_25 {
     position:absolute;
