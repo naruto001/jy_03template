@@ -41,6 +41,10 @@ body {
     font-family:wenyue;
     src:url('wenyue.otf');
 }
+@font-face{
+    font-family:songke;
+    src:url('songke.TTF');
+}
 /* music */
 @-webkit-keyframes rotate {
     0% {
@@ -50,6 +54,7 @@ body {
         -webkit-transform:rotateZ(360deg);
     }
 }
+
 .ro {
     -webkit-animation:rotate 5s linear 0s infinite;
 }
@@ -265,7 +270,13 @@ body {
     font-size:0.48rem;
     color:#333;
     line-height:0.88rem;
-
+    width:9.52rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    word-break:break-all;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:8;
 }
 .page_01_18 {
     position:absolute;
@@ -292,11 +303,47 @@ body {
     top:14.17%;
     width:10.7rem;
     height:9.32rem;
-    overflow:hidden;
 }
 .page_01_20 p {
     font-size:0.48rem;
     line-height:0.96rem;
     text-align:justify;
     color:#333;
+    width:10.7rem;
+    word-break:break-all;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:10;
+    overflow:hidden;
+}
+.page_01_21 {
+    position:absolute;
+    left:13.73%;
+    top:50%;
+    width:5.22rem;
+    height:6.48rem;
+}
+.page_01_22 {
+    position:absolute;
+    right:13.73%;
+    top:64.32%;
+    width:5.22rem;
+    height:6.48rem;
+}
+.page_01_23 {
+    position:absolute;
+    left:56.93%;
+    top:51.42%;
+    width:1.0rem;
+    height:2.96rem;
+    background:url(../img/txt_border02.png) no-repeat;
+    background-size:100% 100%;
+}
+.page_01_23 p {
+    font-family:songke;
+    font-size:0.56rem;
+    font-weight:bold;
+    /*-webkit-transform:rotate(180deg) !important;
+    transform:rotate(180deg);*/
 }
