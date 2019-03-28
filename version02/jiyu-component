@@ -1,0 +1,40 @@
+jiyu-component 
+jiyu-image
+jiyu-text
+jiyu-link
+jiyu-bgimage
+jiyu-mp3
+jiyu-video
+
+
+<style>
+    .not_build{
+        height: 700px !important;
+    }
+    .not_build_a{
+        height: auto !important;
+    }
+</style>
+	
+<div class="swiper-container swiper-container-vertical not_build_a">
+	
+	<div class="swiper-wrapper not_build_a">
+	 
+		<div class="swiper-slide not_build_a">
+                <div class="page_01 not_build">
+				
+				
+		<div class="swiper-slide not_build_a">
+                <div class="page_02 not_build">
+
+var BAIDUMAPOBJECT = map;
+var BAIDUMAPPANELID = 'container';
+var BAIDUMAPPOINT = function(){
+	return new BMap.Point(0,0);
+};
+var BAIDUMAPMARKER = function(){
+	return new BMap.Marker( new BMap.Point(0,0));
+};
+
+//百度地图
+<script type="text/javascript" jiyu-javascript-baidumap></script>
