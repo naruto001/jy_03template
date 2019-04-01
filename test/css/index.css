@@ -606,14 +606,12 @@ body {
 @media only screen and (min-device-width: 412px) and (-webkit-min-device-pixel-ratio: 3) {
     .page_01_10 {
         position:absolute;
-        right:24.77%;
+        right:27.77% !important;
         top:60.77%;
         width:2.44rem;
         z-index:9999999999999;
     }
-    .page_01_10 p {
-        color:red;
-    }
+
     .page_01_20 {
         position: absolute;
         left: 14.4%;
@@ -669,21 +667,21 @@ body {
     .page_01_21 {
         position: absolute;
         left: 13.73%;
-        top: 47%;
+        top: 46%;
         width: 5.22rem;
         height: 6.48rem;
     }
     .page_01_25 {
         position: absolute;
         left: 37.07%;
-        top: 73.01%;
+        top: 76.01%;
         width: 1.0rem;
         overflow: hidden;
     }
     .page_01_26 {
         position: absolute;
         left: 24.53%;
-        top: 73.01%;
+        top: 76.01%;
         width: 0.48rem;
         height: 4.38rem;
     }
@@ -691,14 +689,14 @@ body {
     .page_01_2601 {
         position: absolute;
         left: 29.53%;
-        top: 73.01%;
+        top: 76.01%;
         width: 0.48rem;
         height: 4.38rem;
     }
     .page_01_27 {
         position: absolute;
         left: 13.6%;
-        top: 14.37%;
+        top: 12.37%;
         width: 72.4%;
     }
     .page_01_29 {
