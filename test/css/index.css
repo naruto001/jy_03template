@@ -609,6 +609,7 @@ body {
         right:24.77%;
         top:60.77%;
         width:2.44rem;
+        z-index:9999999999999;
     }
     .page_01_10 p {
         color:red;
@@ -618,7 +619,7 @@ body {
         left: 14.4%;
         top: 14.17%;
         width: 10.7rem;
-        height: 8.32rem;
+        height: 6.32rem;
         overflow: hidden;
     }
     .page_01_20 p {
@@ -631,21 +632,36 @@ body {
         text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 8;
+        -webkit-line-clamp: 6;
         overflow: hidden;
     }
     .page_01_24 {
         position: absolute;
         right: 24.53%;
-        top: 47.42%;
+        top: 44.42%;
         width: 0.48rem;
         height: 4.38rem;
     }
     .page_01_2401 {
         position: absolute;
         right: 29.53%;
-        top: 47.42%;
+        top: 44.42%;
         width: 0.48rem;
         height: 4.38rem;
+    }
+    .page_01_23 {
+        position: absolute;
+        left: 56.93%;
+        top: 47.02%;
+        width: 1.0rem;
+        /* height: 3.6rem; */
+        overflow: hidden;
+    }
+
+    .page_01_07 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 27.73%;
     }
 }
