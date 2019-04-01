@@ -663,5 +663,52 @@ body {
         left: 0;
         bottom: 0;
         width: 27.73%;
+        z-index:-10;
+    }
+
+    .page_01_21 {
+        position: absolute;
+        left: 13.73%;
+        top: 47%;
+        width: 5.22rem;
+        height: 6.48rem;
+    }
+    .page_01_25 {
+        position: absolute;
+        left: 37.07%;
+        top: 73.01%;
+        width: 1.0rem;
+        overflow: hidden;
+    }
+    .page_01_26 {
+        position: absolute;
+        left: 24.53%;
+        top: 73.01%;
+        width: 0.48rem;
+        height: 4.38rem;
+    }
+
+    .page_01_2601 {
+        position: absolute;
+        left: 29.53%;
+        top: 73.01%;
+        width: 0.48rem;
+        height: 4.38rem;
+    }
+    .page_01_27 {
+        position: absolute;
+        left: 13.6%;
+        top: 14.37%;
+        width: 72.4%;
+    }
+    .page_01_29 {
+        position: absolute;
+        left: 0;
+        top: 79%;
+        width: 100%;
+        z-index: 999999;
+        font-size: 0.32rem;
+        color: #666;
+        text-align: center;
     }
 }
