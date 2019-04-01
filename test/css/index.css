@@ -610,4 +610,7 @@ body {
         top:60.77%;
         width:2.44rem;
     }
+    .page_01_10 p {
+        color:red;
+    }
 }
