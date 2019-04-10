@@ -710,3 +710,103 @@ body {
         text-align: center;
     }
 }
+/*针对所有device-width=360的标准模式*/
+@media only screen and (min-device-width: 412px) and (-webkit-min-device-pixel-ratio: 3) {
+    .page_01_20 {
+        position: absolute;
+        left: 14.4%;
+        top: 14.17%;
+        width: 10.7rem;
+        height: 6.32rem;
+        overflow: hidden;
+    }
+    .page_01_20 p {
+        font-size: 0.48rem;
+        line-height: 0.96rem;
+        text-align: justify;
+        color: #333;
+        width: 10.7rem;
+        word-break: break-all;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 6;
+        overflow: hidden;
+    }
+    .page_01_24 {
+        position: absolute;
+        right: 24.53%;
+        top: 44.42%;
+        width: 0.48rem;
+        height: 4.38rem;
+    }
+    .page_01_2401 {
+        position: absolute;
+        right: 29.53%;
+        top: 44.42%;
+        width: 0.48rem;
+        height: 4.38rem;
+    }
+    .page_01_23 {
+        position: absolute;
+        left: 56.93%;
+        top: 47.02%;
+        width: 1.0rem;
+        /* height: 3.6rem; */
+        overflow: hidden;
+    }
+
+    .page_01_07 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 27.73%;
+        z-index:-10;
+    }
+
+    .page_01_21 {
+        position: absolute;
+        left: 13.73%;
+        top: 46%;
+        width: 5.22rem;
+        height: 6.48rem;
+    }
+    .page_01_25 {
+        position: absolute;
+        left: 37.07%;
+        top: 76.01%;
+        width: 1.0rem;
+        overflow: hidden;
+    }
+    .page_01_26 {
+        position: absolute;
+        left: 24.53%;
+        top: 76.01%;
+        width: 0.48rem;
+        height: 4.38rem;
+    }
+
+    .page_01_2601 {
+        position: absolute;
+        left: 29.53%;
+        top: 76.01%;
+        width: 0.48rem;
+        height: 4.38rem;
+    }
+    .page_01_27 {
+        position: absolute;
+        left: 13.6%;
+        top: 12.37%;
+        width: 72.4%;
+    }
+    .page_01_29 {
+        position: absolute;
+        left: 0;
+        top: 79%;
+        width: 100%;
+        z-index: 999999;
+        font-size: 0.32rem;
+        color: #666;
+        text-align: center;
+    }
+}
