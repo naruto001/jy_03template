@@ -711,7 +711,7 @@ body {
     }
 }
 /*针对所有device-width=360的标准模式*/
-@media only screen and (min-device-width: 412px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 360px) and (-webkit-min-device-pixel-ratio: 3) {
     .page_01_20 {
         position: absolute;
         left: 14.4%;
